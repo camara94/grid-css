@@ -23,7 +23,14 @@ La propriété **grid-gap** est la combinaison des deux premières propriétés 
 La fonction **repeat()** nous évite de faire de répetition des valeurs des propriétés css. Elle prend deux paramètres: le premier est le nombre de répétition et le deuxième des la valeur à répéter. 
 
 ## La propriété: grid-column-start
-La propriété **grid-column-start** permet de specifier la **ligne de grid** où l'élément doit commencer en commençant à compter à partir de 1.
+La propriété **grid-column-start** permet de specifier la **ligne de grid** où l'élément doit commencer(horizontalement) en commençant à compter à partir de 1.
 
 ## La propriété: grid-column-end
-La propriété **grid-column-end** permet de specifier la **ligne de grid** où l'élément doit se limiter en commençant à compter à partir de 1.
+La propriété **grid-column-end** permet de specifier la **ligne de grid** où l'élément doit se limiter(horizontalement) en commençant à compter à partir de 1.
+
+## La propriété: grid-column-start
+La propriété **grid-row-start** permet de specifier la **ligne de grid** où l'élément doit commencer(verticalement) en commençant à compter à partir de 1.
+
+## La propriété: grid-column-end
+La propriété **grid-row-end** permet de specifier la **ligne de grid** où l'élément doit se limiter(verticalement) en commençant à compter à partir de 1.
+

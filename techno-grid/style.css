@@ -36,6 +36,8 @@ body {
 }
 .quatre {
     background-color: #ec9;
+    grid-row-start: 2;
+    grid-row-end: 4;
 }
 .cinq {
     background-color: #aa9;
@@ -44,12 +46,14 @@ body {
     background-color: #fc7;
     grid-column-start: 3;
     grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
 }
 .sept {
     background-color: #ee9;
 }
 .huit {
     background-color: #fc9;
-    grid-column-start: 2;
+    grid-column-start: 1;
     grid-column-end: 5;
 }
