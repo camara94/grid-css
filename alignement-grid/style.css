@@ -11,7 +11,8 @@ body {
     /*grid-column-gap: 10px;
     grid-row-gap: 15px; equivalent à la ligne ci-dessous
     grid-gap: 10px;*/
-    justify-content: space-evenly;
+    /*justify-content: space-evenly;*/
+    align-content: space-evenly;
     height: 600px;
     width: 90%;
     margin: auto;
