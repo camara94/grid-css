@@ -6,8 +6,8 @@ body {
 }
 #grille {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 2fr;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     /*grid-column-gap: 10px;
     grid-row-gap: 15px;*/
     grid-gap: 10px;

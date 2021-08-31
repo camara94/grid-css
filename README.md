@@ -18,3 +18,6 @@ La propriété **grid-row-gap** permet de gerer la goutière entre les lignes da
 ## La propriété grid-gap
 La propriété **grid-gap** est la combinaison des deux premières propriétés précedantes 
 <code> { grid-gap: valeurrows valeurcolumns }</code>, on peut aussi les combinées avec <code>{grid-gap: valeur}</code>
+
+## La fonction repeat 
+La fonction **repeat()** nous évite de faire de répetition des valeurs des propriétés css. Elle prend deux paramètres: le premier est le nombre de répétition et le deuxième des la valeur à répéter. 
