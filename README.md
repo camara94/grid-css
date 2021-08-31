@@ -38,3 +38,5 @@ La valeur **span nombre** nous évite de compter le nombre de **ligne de grid**,
 
 ## Les propriétés: grid-row et grid-column
 les propriétés **grid-column** et **grid-row** sont les raccourchies respectives de **grid-column-start, grid-column-end** et **grid-row-start, grid-row-end** 
+## La propriété: justify-content
+La propriété **justify-content** permet de gérer la alignement horizontal, elle prend des valeurs suivantes: start, end, space-between, space-around, span-evenly, stretch
