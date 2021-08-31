@@ -6,11 +6,11 @@ body {
 }
 #grille {
     display: grid;
-    grid-template-columns: 25% auto 25%;
-    grid-template-rows: 50% auto 100px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
     /*grid-column-gap: 10px;
     grid-row-gap: 15px;*/
-    grid-gap: 15px 10px;
+    grid-gap: 10px;
     height: 600px;
     width: 90%;
     margin: auto;
