@@ -1,11 +1,18 @@
 
+body {
+    padding: 0;
+    margin: 0;
+}
 #grille {
     display: grid;
+    grid-template-columns: 400px 450px 500px 200px;
 }
 #grille div {
     padding: 8px;
     border: 1px solid;
     text-align: center;
+    font-size: 18px;
+    font-weight: bold;
 }
 .un {
     background-color: #fc9;
