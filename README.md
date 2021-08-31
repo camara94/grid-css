@@ -10,3 +10,11 @@ La propriété **grid-template-columns** nous permet de fixer le nombre de colon
 **NB** mais le mieux est utilisé le même type de mesure pour ne pas se perdre.
 ## La propriété: grid-template-rows
 La propriété **grid-template-rows** nous permet de fixer la taille des lignes au sein d'un conteneur grid et elle ne gère pas le nombre de ligne car le nombre de ligne est geré automatiquement, on peut combiner plusieurs type de mesures en ensemble également aussi par exemple (px, pt, %,em, rem,...).
+## La propriété grid-column-gap
+La propriété **grid-column-gap** permet de gerer la goutière entre les colonnes dans un conteneur grid
+## La propriété grid-row-gap
+La propriété **grid-row-gap** permet de gerer la goutière entre les lignes dans un conteneur grid.
+
+## La propriété grid-gap
+La propriété **grid-gap** est la combinaison des deux premières propriétés précedantes 
+<code> { grid-gap: valeurrows valeurcolumns }</code>, on peut aussi les combinées avec <code>{grid-gap: valeur}</code>
