@@ -33,4 +33,6 @@ La propriété **grid-row-start** permet de specifier la **ligne de grid** où l
 
 ## La propriété: grid-column-end
 La propriété **grid-row-end** permet de specifier la **ligne de grid** où l'élément doit se limiter(verticalement) en commençant à compter à partir de 1.
+## La veleur: span nombre:
+La valeur **span nombre** nous évite de compter le nombre de **ligne de grid**, mais plutôt de compter le nombre de colonne ou de ligne qu'on veut que l'élément occupe.
 

@@ -26,7 +26,7 @@ body {
 .un {
     background-color: #fc9;
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: span 3;
 }
 .deux {
     background-color: #f2c;
@@ -47,10 +47,12 @@ body {
     grid-column-start: 3;
     grid-column-end: 5;
     grid-row-start: 2;
-    grid-row-end: 4;
+    grid-row-end: span 3;
 }
 .sept {
     background-color: #ee9;
+    grid-column-start: 1;
+    grid-column-end: span 2;
 }
 .huit {
     background-color: #fc9;
