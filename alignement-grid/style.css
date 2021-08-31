@@ -13,7 +13,8 @@ body {
     grid-gap: 10px;*/
     justify-content: center;
     align-content: center;
-    align-items: start;
+    justify-items: stretch;
+    align-items: stretch;
     height: 600px;
     width: 90%;
     margin: auto;
@@ -37,4 +38,6 @@ body {
 }
 .quatre {
     background-color: #ec9;
+    align-self: end;
+    justify-self: end;
 }

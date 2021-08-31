@@ -45,6 +45,11 @@ La propriété **justify-content** permet de gérer la alignement horizontal(axe
 La propriété **align-contents** permet de gérer la alignement vertical(axe Y), elle prend des valeurs suivantes: start, end, space-between, space-around, span-evenly, stret
 
 ## La propriété align-items
-La propriété **align-item** permet d'aligner les éléments enfants selon les lignes de grid horizontal, elle prend les valeurs suivantes: start, stretch, end, center.
+La propriété **align-items** permet d'aligner les éléments enfants selon les lignes de grid horizontal, elle prend les valeurs suivantes: start, stretch, end, center.
 ## La propriété justify-items
-La propriété **justify-items** permet d'aligner les éléments enfants selon les lignes de grid vertical, elle prend les valeurs suivantes: start, stretch, end, center
+La propriété **justify-items** permet d'aligner les éléments enfants selon les lignes de grid vertical, elle prend les valeurs suivantes: start, stretch, end, center.
+
+## La propriété align-self
+La propriété **align-self** permet d'aligner un élément enfant selon les lignes de grid horizontal, elle prend les valeurs suivantes: start, stretch, end, center.
+## La propriété justify-self
+La propriété **justify-self** permet d'aligner un élément enfant selon les lignes de grid vertical, elle prend les valeurs suivantes: start, stretch, end, center
