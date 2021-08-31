@@ -1,0 +1,37 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+}
+#grille {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(2, 100px);
+    /*grid-column-gap: 10px;
+    grid-row-gap: 15px; equivalent à la ligne ci-dessous*/
+    grid-gap: 10px;
+    height: 600px;
+    width: 90%;
+    margin: auto;
+    background-color: #fff;
+}
+#grille div {
+    padding: 8px;
+    border: 1px solid;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.un {
+    background-color: #fc9;
+}
+.deux {
+    background-color: #f2c;
+}
+.trois {
+    background-color: #fa9;
+}
+.quatre {
+    background-color: #ec9;
+}
