@@ -1,0 +1,2 @@
+# grid-css
+Une grille CSS (CSS Grid) peut être définie comme un ensemble croisé de lignes verticales et horizontales. La disposition CSS Grid sépare une page en sections principales. La propriété Grid CSS3 propose un système de disposition basé sur une grille comportant des lignes et des colonnes, qui facilite la conception de pages Web sans positionnement ni flottement. La disposition de la grille nous donne un moyen de créer des structures de grille représentées en CSS, pas en HTML.
