@@ -6,8 +6,8 @@ body {
 }
 #grille {
     display: grid;
-    grid-template-columns: 500px 50%;
-    grid-template-rows: 50%;
+    grid-template-columns: 25% auto 25%;
+    grid-template-rows: 50% auto 100px;
     height: 600px;
     width: 90%;
     margin: auto;
