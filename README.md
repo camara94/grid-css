@@ -36,3 +36,5 @@ La propriété **grid-row-end** permet de specifier la **ligne de grid** où l'�
 ## La veleur: span nombre:
 La valeur **span nombre** nous évite de compter le nombre de **ligne de grid**, mais plutôt de compter le nombre de colonne ou de ligne qu'on veut que l'élément occupe.
 
+## Les propriétés: grid-row et grid-column
+les propriétés **grid-column** et **grid-row** sont les raccourchies respectives de **grid-column-start, grid-column-end** et **grid-row-start, grid-row-end** 

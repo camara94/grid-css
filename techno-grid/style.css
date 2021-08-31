@@ -9,7 +9,7 @@ body {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     /*grid-column-gap: 10px;
-    grid-row-gap: 15px;*/
+    grid-row-gap: 15px; equivalent à la ligne ci-dessous*/
     grid-gap: 10px;
     height: 600px;
     width: 90%;
@@ -25,8 +25,9 @@ body {
 }
 .un {
     background-color: #fc9;
-    grid-column-start: 1;
-    grid-column-end: span 3;
+    /*grid-column-start: 1;
+    grid-column-end: span 3; equivalent à la ligne ci-dessous*/
+    grid-column: 1 / span 3; /* span 3 occupe => trois colonnes dans ce context*/
 }
 .deux {
     background-color: #f2c;
@@ -36,18 +37,21 @@ body {
 }
 .quatre {
     background-color: #ec9;
-    grid-row-start: 2;
-    grid-row-end: 4;
+    /*grid-row-start: 2;
+    grid-row-end: 4; equivalent à la ligne ci-dessous */
+    grid-row: 2 / span 2; /* span 2 => 4 (4 pour dire quatrième ligne de grid selon la ligne*/
 }
 .cinq {
     background-color: #aa9;
 }
 .six {
     background-color: #fc7;
-    grid-column-start: 3;
-    grid-column-end: 5;
-    grid-row-start: 2;
-    grid-row-end: span 3;
+    /*grid-column-start: 3;
+    grid-column-end: 5; equivalente à la ligne ci-dessous*/
+    grid-column: 3 / span 2;
+    /*grid-row-start: 2;
+    grid-row-end: span 3; equivalente à la ligne ci-dessous*/
+    grid-row: 2 / span 3;
 }
 .sept {
     background-color: #ee9;
