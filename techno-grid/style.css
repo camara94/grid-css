@@ -1,0 +1,33 @@
+
+#grille {
+    display: grid;
+}
+#grille div {
+    padding: 8px;
+    border: 1px solid;
+    text-align: center;
+}
+.un {
+    background-color: #fc9;
+}
+.deux {
+    background-color: #f2c;
+}
+.trois {
+    background-color: #fa9;
+}
+.quatre {
+    background-color: #ec9;
+}
+.cinq {
+    background-color: #aa9;
+}
+.six {
+    background-color: #fc7;
+}
+.sept {
+    background-color: #ee9;
+}
+.huit {
+    background-color: #fc9;
+}
