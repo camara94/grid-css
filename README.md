@@ -8,3 +8,5 @@ Pour rendre élément à un conteneur **grid**, nous devons appliquer la propri�
 ## La propriété: grid-template-columns
 La propriété **grid-template-columns** nous permet de fixer le nombre de colonnes au sein d'un conteneur grid, on peut combiner plusieurs type de mesures en ensemble par exemple (px, pt, %,em, rem,...)
 **NB** mais le mieux est utilisé le même type de mesure pour ne pas se perdre.
+## La propriété: grid-template-rows
+La propriété **grid-template-rows** nous permet de fixer la taille des lignes au sein d'un conteneur grid et elle ne gère pas le nombre de ligne car le nombre de ligne est geré automatiquement, on peut combiner plusieurs type de mesures en ensemble également aussi par exemple (px, pt, %,em, rem,...).

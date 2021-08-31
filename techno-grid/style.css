@@ -2,10 +2,16 @@
 body {
     padding: 0;
     margin: 0;
+    background-color: #000;
 }
 #grille {
     display: grid;
-    grid-template-columns: 400px 450px 500px 200px;
+    grid-template-columns: 500px 50%;
+    grid-template-rows: 50%;
+    height: 600px;
+    width: 90%;
+    margin: auto;
+    background-color: #fff;
 }
 #grille div {
     padding: 8px;
