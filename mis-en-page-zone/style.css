@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+#grille {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 4fr 1fr;
+    grid-template-areas: 
+                        "header header"
+                        "nav article"
+                        "footer footer";
+    background-color: #ccc;
+    height: 750px;
+    width: 90%;
+    margin: auto;
+}
+.content {
+    padding: 10px;
+    text-align: center;
+}
+
+header {
+    background-color: #fc9;
+    grid-area: header;
+}
+
+nav {
+    background-color: #fee;
+    grid-area: nav;
+}
+
+article {
+    background-color: #ecf;
+    grid-area: article;
+}
+
+footer {
+    background-color: #fe9;
+    grid-area: footer;
+}
