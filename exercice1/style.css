@@ -1,0 +1,91 @@
+.un {
+    background-color: #f0da50;
+  }
+  
+  .deux {
+    background-color: #f09450;
+  }
+  body{
+      padding: 0;
+      margin: 0;
+  }
+
+  #container div {
+      text-align: center;
+      padding: 10px;
+      font-family: arial;
+      font-weight: bold;
+  }
+
+  #container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas:
+                          "un un"
+                          "deux deux"
+                          "trois trois"
+                          "quatre six"
+                          "sept huit"
+                          "neuf neuf";
+      grid-gap: 5px;
+      height: 100vh;
+  }
+
+  .un {
+    background-color: #f0da50;
+    grid-area: un;
+  }
+  
+  .deux {
+    background-color: #f09450;
+    grid-area: deux;
+  }
+
+  .trois {
+    background-color: #22d5f0;
+    grid-area: trois;
+  }
+  .quatre {
+    background-color: #ee6da1;
+    grid-area: quatre;
+  }
+  .cinq {
+    background-color: #14b236;
+    grid-area: cinq;
+    display: none;
+  }
+  .six {
+    background-color: #1438d9;
+    grid-area: six;
+  }
+  .sept {
+    background-color: #09f1ad;
+    grid-area: sept;
+  }
+  .huit {
+    background-color: #c7f571;
+    grid-area: huit;
+  }
+  .neuf {
+    background-color: #b2142e;
+    grid-area: neuf;
+  }
+
+  @media screen and ( min-width: 850px ) {
+    #container {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr 1fr;
+        grid-template-areas:
+                            "un un un un"
+                            "deux trois trois trois"
+                            "deux quatre quatre cinq"
+                            "deux six six cinq"
+                            "sept sept huit huit"
+                            "neuf neuf neuf neuf";
+        grid-gap: 5px;
+        height: 100vh;
+    }
+    .cinq {
+        display: block;
+    }
+  }
