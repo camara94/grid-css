@@ -52,4 +52,7 @@ La propriété **justify-items** permet d'aligner les éléments enfants selon l
 ## La propriété align-self
 La propriété **align-self** permet d'aligner un élément enfant selon les lignes de grid horizontal, elle prend les valeurs suivantes: start, stretch, end, center.
 ## La propriété justify-self
-La propriété **justify-self** permet d'aligner un élément enfant selon les lignes de grid vertical, elle prend les valeurs suivantes: start, stretch, end, center
+La propriété **justify-self** permet d'aligner un élément enfant selon les lignes de grid vertical, elle prend les valeurs suivantes: start, stretch, end, center.
+
+## La propriété grid-auto-flow
+La propriété **grid-auto-flow** permet de changer l'ordre des items (ou blocks enfants) dans le conteneur parent.

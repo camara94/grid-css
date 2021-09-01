@@ -7,10 +7,9 @@ body {
     height: 700px;
     grid-template-columns: repeat(3, 400px);
     grid-template-rows: repeat(3, 120px);
+    grid-auto-flow: inherit;
     justify-content: center;
     align-content: center;
-    grid-column-gap: 5px;
-    grid-row-gap: 10px;
 }
 
 #grille div {
@@ -21,13 +20,9 @@ body {
 }
 .un {
     background-color: #9cf;
-    grid-column-start: 1;
-    grid-column-end: 3;
 }
 .deux {
     background-color: #9a1;
-    grid-column: 3 / span 1;
-    grid-row: 1 / span 2;
 }
 .trois {
     background-color: #7ef;
@@ -43,10 +38,7 @@ body {
 }
 .sept {
     background-color: #2cf;
-    align-self: center;
-    justify-self: center;
 }
 .huit {
     background-color: #fcf;
-    grid-column: 1 / span 3;
 }
