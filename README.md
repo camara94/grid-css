@@ -56,3 +56,5 @@ La propriété **justify-self** permet d'aligner un élément enfant selon les l
 
 ## La propriété grid-auto-flow
 La propriété **grid-auto-flow** permet de changer l'ordre des items (ou blocks enfants) dans le conteneur parent.
+## Les propriétés: grid-auto-columns et grid-auto-rows
+Elles permettent respectivement l'ajout de colonnes et de lignes virtuelles au DOM.
