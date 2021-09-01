@@ -1,0 +1,52 @@
+body {
+    padding: 0px;
+    margin: 0;
+}
+#grille {
+    display: grid;
+    height: 700px;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(3, 120px);
+    justify-content: center;
+    align-content: center;
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
+}
+
+#grille div {
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.un {
+    background-color: #9cf;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.deux {
+    background-color: #9a1;
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 2;
+}
+.trois {
+    background-color: #7ef;
+}
+.quatre {
+    background-color: #fc9;
+}
+.cinq {
+    background-color: #9c4;
+}
+.six {
+    background-color: #9cf;
+}
+.sept {
+    background-color: #2cf;
+    align-self: center;
+    justify-self: center;
+}
+.huit {
+    background-color: #fcf;
+    grid-column: 1 / span 3;
+}
