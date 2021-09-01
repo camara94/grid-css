@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+#grille {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 80px minmax(200px, auto) 80px;
+    background-color: #ccc;
+    width: 90%;
+    margin: auto;
+}
+.content {
+    padding: 10px;
+    text-align: center;
+}
+
+header {
+    background-color: #fc9;
+    order: 1;
+    grid-column: 1 / span 2;
+}
+
+nav {
+    background-color: #fee;
+    order: 2;
+}
+
+article {
+    background-color: #ecf;
+    order: 3;
+}
+
+footer {
+    background-color: #fe9;
+    grid-column: 1 / span 2;
+    order: 4;
+}
