@@ -64,3 +64,5 @@ La propriété **grid-area** permet de nommé les items enfin de pouvoir les pos
 
 ## La propriété: grid-template-areas
 La propriété **grid-template-areas** permet de positionner les items en fonction des lignes et des colonnes.
+## La propriété: order
+La propriété **order** permet de placer les items(éléments) selon le numéro d'ordre croissant.
