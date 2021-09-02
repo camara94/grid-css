@@ -35,6 +35,15 @@ nav {
 section {
     background-color: #d8d8d8;
     grid-area: section;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4fr repeat(3, 1fr);
+    grid-template-areas: 
+                        "article"
+                        "aside1"
+                        "aside2"
+                        "aside3";
+    grid-gap: 3px;
 }
 
 footer {
@@ -44,9 +53,19 @@ footer {
 
 article {
     background-color: #8db1e3;
+    grid-area: article;
 }
 aside {
     background-color: #d99690;
+}
+#aside1 {
+    grid-area: aside1;
+}
+#aside2 {
+    grid-area: aside2;
+}
+#aside3 {
+    grid-area: aside3;
 }
 
 @media screen and ( min-width: 780px ) and ( max-width: 950px ) {
@@ -68,5 +87,14 @@ aside {
                             "header header"
                             "nav section"
                             "footer footer";
+    }
+
+    section {
+        grid-template-columns:  4fr 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 
+                            "article aside1"
+                            "article aside2"
+                            "article aside3";
     }
 }
