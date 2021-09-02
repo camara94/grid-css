@@ -38,3 +38,28 @@ aside {
 footer {
     background-color: #7cccce;
 }
+
+@media screen and ( max-width: 959px ) {
+    #grille {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 4fr 1fr 1fr 1fr;
+    }
+    .content {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .main {
+        order: 1;
+    }
+    nav {
+        order: 2;
+    }
+    aside {
+        order: 3;
+    }
+    footer {
+        order: 4;
+    }
+}
