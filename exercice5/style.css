@@ -72,3 +72,23 @@ footer {
                             "footer footer";
     }
 }
+
+/* Téléphone */
+@media screen and ( max-width: 689px ) {
+    #grille {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr) 4fr repeat(2, 1fr);
+        grid-template-areas: 
+                            "header"
+                            "nav"
+                            "navSecondaire"
+                            "main"
+                            "aside"
+                            "footer";
+    }
+
+    #info {
+        display: none;
+    }
+}
